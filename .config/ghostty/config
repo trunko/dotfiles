@@ -1,0 +1,22 @@
+theme = catppuccin-mocha
+
+font-family = Hack Nerd Font
+font-size = 12
+
+title = "Terminal"
+
+font-thicken = true
+cursor-style = block
+cursor-style-blink = false
+cursor-invert-fg-bg = true
+shell-integration-features = no-cursor
+
+mouse-hide-while-typing = true
+
+window-height = 40
+window-width = 150
+
+clipboard-paste-protection = true
+
+bold-is-bright = true
+

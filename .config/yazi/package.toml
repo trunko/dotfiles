@@ -1,0 +1,24 @@
+[[plugin.deps]]
+use = "yazi-rs/plugins:mount"
+rev = "beb586a"
+hash = "5c4d8080367dd2561a18c1cf5a1dd295"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:chmod"
+rev = "beb586a"
+hash = "f28138c2e11e87962b66d583fef724c3"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:diff"
+rev = "beb586a"
+hash = "7a08e303167d5b655c06da6d570f0333"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:jump-to-char"
+rev = "beb586a"
+hash = "af11685de39c366ec1137fcbccacdbff"
+
+[[flavor.deps]]
+use = "yazi-rs/flavors:catppuccin-mocha"
+rev = "302c0d5"
+hash = "c40e434318a8ceffd01842f8dfb2390e"
