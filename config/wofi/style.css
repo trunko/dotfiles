@@ -2,74 +2,79 @@
 
 * {
   font-family: Hack Nerd Font;
-  background: transparent;
-  color: #d8cab8;
+  background: @base;
 }
 
-#window {
-  color: #d8cab8;
-  border-color: #d8cab8;
-  border-style: solid;
-  border-width: 1px;
-
-  /*Linear gradient background instead of standard background, because it makes cleaner border-radius cuts, issa bug :p*/
-  background-color: rgba(20, 18, 22, 0.7);
-  border-radius: 14px;
-}
-#scroll {
-  border-top-style: solid;
-  border-width: 1px;
-  border-color: #d8cab8;
-}
-#inner-box {
-  padding-top: 12px;
-}
-#entry {
-  border-style: none;
-  border-color: #d8cab8;
-  color: #d8cab8;
-  padding: 6px;
-  margin-bottom: 8px;
-  margin-left: 12px;
-  margin-right: 12;
-
+window {
+  margin: 0px;
+  padding: 10px;
+  border: 2px solid @lavender;
   border-radius: 8px;
+  background-color: @base;
 }
 
-#entry:selected {
-  background-color: rgba(0, 0, 0, 0.2);
-  border-style: none;
+#inner-box {
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  background-color: @base;
+}
 
-  color: #d8cab8;
-  font-weight: bold;
-  outline: none;
+#outer-box {
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  background-color: @base;
+}
+
+#scroll {
+  margin: 0px;
+  padding: 10px;
+  border: none;
+  background-color: @base;
 }
 
 #input {
-  background-color: rgba(0, 0, 0, 0.2);
-  color: #d8cab8;
-  border-color: #d8cab8;
-
-  border-style: none;
-  border-bottom-style: solid;
-  border-width: 1px;
-
-  font-style: normal;
-
-  border-radius: 8;
-  border-bottom-left-radius: 0px;
-  border-bottom-right-radius: 0px;
-
-  padding: 12px;
-  margin: 8px;
-}
-#input:focus {
-  background-color: rgba(0, 0, 0, 0.2);
-  border-color: #ac82e9;
-  font-style: italic;
+  margin: 5px 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 0.1em;
+  color: @text;
+  background-color: @base;
 }
 
-#img {
-  padding: 4px;
-  margin-right: 6px;
+#input image {
+    border: none;
+    color: @red;
+}
+
+#input * {
+  outline: 4px solid @red!important;
+}
+
+#text {
+  margin: 5px;
+  border: none;
+  color: @text;
+}
+
+#entry {
+  background-color: @base;
+}
+
+#entry arrow {
+  border: none;
+  color: @lavender;
+}
+
+#entry:selected {
+  border: 0.11em solid @lavender;
+}
+
+#entry:selected #text {
+  color: @mauve;
+}
+
+#entry:drop(active) {
+  background-color: @lavender!important;
 }
