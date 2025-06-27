@@ -3,7 +3,7 @@ theme = catppuccin-mocha
 font-family = Hack Nerd Font
 font-size = 12
 
-title = "Terminal"
+title = " "
 
 font-thicken = true
 cursor-style = block
@@ -19,4 +19,3 @@ window-width = 150
 clipboard-paste-protection = true
 
 bold-is-bright = true
-

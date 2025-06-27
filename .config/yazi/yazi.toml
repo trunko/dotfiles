@@ -1,4 +1,15 @@
-[manager]
+[mgr]
 
 show_hidden = true
 title_format = "{cwd}"
+
+[opener]
+play = [
+	{ run = 'mpv "$@"', orphan = true, for = "unix" },
+]
+edit = [
+	{ run = 'nvim "$@"', block = true, for = "unix" },
+]
+open = [
+	{ run = 'xdg-open "$@"', desc = "Open" },
+]
