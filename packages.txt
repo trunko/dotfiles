@@ -1,6 +1,8 @@
 catppuccin-gtk-theme-mocha
+curl
 dolphin
 firefox
+git
 htop
 hyprland
 hyprpaper

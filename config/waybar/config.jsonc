@@ -2,10 +2,11 @@
   // "margin-top": 15,
   "position": "top",
   "modules-left": [
+    "custom/applauncher",
     "hyprland/workspaces"
   ],
   "modules-center": [
-    "custom/applauncher"
+    "hyprland/window"
   ],
   "modules-right": [
     "tray",
@@ -25,7 +26,7 @@
   },
   "custom/applauncher": {
     "format": "〇",
-    "on-click": "pgrep wofi >/dev/null 2>&1 && killall wofi || wofi --show drun --location=top -y 15",
+    "on-click": "pgrep wofi >/dev/null 2>&1 && killall wofi || wofi --show drun",
     "tooltip": false
   },
   "tray": {
@@ -71,8 +72,8 @@
     "format-icons": [ "", "", " " ],
     "nospacing": 1,
     "format-muted": " ",
-    "on-click": "pavucontrol"
-    // "tooltip": false
+    "on-click": "pavucontrol",
+    "tooltip": false
   },
   "battery": {
     "states": {
