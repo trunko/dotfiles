@@ -9,6 +9,7 @@ hyprshot
 lazygit
 neofetch
 nwg-look
+pavucontrol
 starship
 swaync
 ttf-hack-nerd
