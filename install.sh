@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # Install necessary packages
-yay -S hyprland hyprpaper hyprshot swaync wofi waybar yazi dolphin firefox xdg-desktop-portal-hyprland hyprpolkitagent starship htop neofetch lazygit ttf-hack-nerd
+while read i; do yay -S --noconfirm $i; done <~/dotfiles/packages.txt
 
-
+# Create Symlinks
+ln -s ~/dotfiles/config/* ~/.config/
