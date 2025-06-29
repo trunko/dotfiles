@@ -31,16 +31,12 @@
 }
 
 window {
-  margin: 0px;
-  padding: 10px;
   border: 2px solid @lavender;
   border-radius: 8px;
   background-color: @base;
 }
 
 #inner-box {
-  margin: 5px;
-  padding: 10px;
   border: none;
   background-color: @base;
 }
@@ -53,28 +49,13 @@ window {
 }
 
 #scroll {
-  margin: 0px;
-  padding: 10px;
   border: none;
   background-color: @base;
 }
 
 #input {
-  margin: 5px 20px;
-  padding-top: 10px;
-  border: none;
-  border-radius: 0.1em;
-  color: @text;
-  background-color: @base;
-}
-
-#input image {
-    border: none;
-    color: @red;
-}
-
-#input * {
-  outline: 4px solid @red!important;
+  display: none;
+  margin: -1000px 5px;
 }
 
 #text {
@@ -85,11 +66,7 @@ window {
 
 #entry {
   background-color: @base;
-}
-
-#entry arrow {
-  border: none;
-  color: @lavender;
+  border: 0.11em solid @base;
 }
 
 #entry:selected {
@@ -98,8 +75,4 @@ window {
 
 #entry:selected #text {
   color: @mauve;
-}
-
-#entry:drop(active) {
-  background-color: @lavender!important;
 }

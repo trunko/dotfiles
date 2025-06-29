@@ -1,0 +1,9 @@
+show=dmenu
+term=ghostty
+location=center
+line_wrap=word
+no_actions=false
+hide_scroll=true
+hide_search=true
+width=200
+height=161

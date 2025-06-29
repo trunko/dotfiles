@@ -12,7 +12,8 @@
     "tray",
     "network",
     "pulseaudio",
-    "clock"
+    "clock",
+    "custom/power"
   ],
   "hyprland/workspaces": {
     "disable-scroll": true,
@@ -25,8 +26,13 @@
     "tooltip": false
   },
   "custom/applauncher": {
-    "format": "〇",
+    "format": " ",
     "on-click": "pgrep wofi >/dev/null 2>&1 && killall wofi || wofi --show drun",
+    "tooltip": false
+  },
+  "custom/power": {
+    "format": "⏻ ",
+    "on-click": "pgrep wofi >/dev/null 2>&1 && killall wofi || ~/.config/hypr/scripts/wofi-power.sh",
     "tooltip": false
   },
   "tray": {
@@ -34,7 +40,7 @@
     "tooltip": false
   },
   "clock": {
-    "format": "<span foreground='#f5c2e7'>  </span>{:%a %d %H:%M}",
+    "format": "  {:%a %d %H:%M}",
     "tooltip-format": "<tt><big>{calendar}</big></tt>",
     "calendar": {
       "mode"          : "month",
@@ -45,13 +51,11 @@
         "months":     "<span color='#eba0ac'><b>{}</b></span>",
         "days":       "<span color='#f5e0dc'><b>{}</b></span>",
         "weekdays":   "<span color='#fab387'><b>{}</b></span>",
-        "today":      "<span background='#f38ba8' color='#11111b'><b>{}</b></span>"
+        "today":      "<span background='#f38ba8' color='#1e1e2e'><b>{}</b></span>"
       }
     },
     "actions": {
       "on-click-right": "mode",
-      "on-click-forward": "tz_up",
-      "on-click-backward": "tz_down",
       "on-scroll-up": "shift_up",
       "on-scroll-down": "shift_down"
     }
@@ -62,7 +66,8 @@
     "format-linked": "{ifname} (No IP) ",
     "format-disconnected": "<span size='13000' foreground='#f5e0dc'>  </span>Disconnected",
     "tooltip-format": "  {ifname}",
-    "tooltip-format-wifi": "{essid} ({signalStrength}%)"
+    "tooltip-format-wifi": "{essid} ({signalStrength}%)",
+    "on-click": "nm-applet"
   },
   "pulseaudio": {
     "scroll-step": 5,
