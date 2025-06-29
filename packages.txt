@@ -1,6 +1,7 @@
 catppuccin-gtk-theme-mocha
 curl
 dolphin
+eza
 firefox
 git
 htop
