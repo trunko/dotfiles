@@ -5,6 +5,7 @@ eza
 firefox
 git
 htop
+hyprcursor
 hypridle
 hyprland
 hyprlock
@@ -20,6 +21,7 @@ nm-applet
 nwg-look
 pavucontrol
 pipewire
+qogir-cursor-theme
 qt5-wayland
 qt6-wayland
 starship
