@@ -17,7 +17,7 @@ lazygit
 ly
 mpv
 neofetch
-nm-applet
+network-manager-applet
 nwg-look
 pavucontrol
 pipewire

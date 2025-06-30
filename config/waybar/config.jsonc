@@ -10,18 +10,11 @@
   ],
   "modules-right": [
     "tray",
-    "network",
     "pulseaudio",
     "clock",
     "custom/power"
   ],
   "hyprland/workspaces": {
-    "disable-scroll": true,
-    "all-outputs": false,
-    "tooltip": false
-  },
-  "sway/workspaces": {
-    "disable-scroll": true,
     "all-outputs": false,
     "tooltip": false
   },
@@ -59,15 +52,6 @@
       "on-scroll-up": "shift_up",
       "on-scroll-down": "shift_down"
     }
-  },
-  "network": {
-    "format": "<span size='13000' foreground='#f5e0dc'> </span> {bandwidthDownBits}",
-    "format-wifi": "<span size='13000' foreground='#f5e0dc'>  </span>{essid}",
-    "format-linked": "{ifname} (No IP) ",
-    "format-disconnected": "<span size='13000' foreground='#f5e0dc'>  </span>Disconnected",
-    "tooltip-format": "  {ifname}",
-    "tooltip-format-wifi": "{essid} ({signalStrength}%)",
-    "on-click": "nm-applet"
   },
   "pulseaudio": {
     "scroll-step": 5,

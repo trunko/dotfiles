@@ -65,7 +65,6 @@ button:hover {
 #backlight,
 #wireplumber,
 #tray,
-#network,
 #mode,
 #scratchpad {
   margin-top: 2px;
@@ -79,8 +78,8 @@ button:hover {
 }
 
 #clock {
-  color: @maroon;
-  border-bottom: 2px solid @maroon;
+  color: @peach;
+  border-bottom: 2px solid @peach;
 }
 
 #pulseaudio {
@@ -128,11 +127,6 @@ button:hover {
   transition-duration: 120ms;
 }
 
-#network {
-  color: @yellow;
-  border-bottom: 2px solid @yellow;
-}
-
 #idle_inhibitor {
   margin-right: 12px;
   color: #7cb342;
@@ -148,10 +142,10 @@ button:hover {
 }
 
 #tray {
-  color: @lavender;
+  color: @yellow;
   padding-left: 6px;
   padding-right: 6px;
-  border-bottom: 2px solid @lavender;
+  border-bottom: 2px solid @yellow;
 }
 
 /* If workspaces is the leftmost module, omit left margin */
