@@ -61,7 +61,7 @@ window {
 
 #input {
   margin: 5px 20px;
-  padding-top: 10px;
+  padding: 10px;
   border: none;
   border-radius: 0.1em;
   color: @text;
@@ -85,6 +85,7 @@ window {
 
 #entry {
   background-color: @base;
+  border: 0.11em solid @base;
 }
 
 #entry arrow {

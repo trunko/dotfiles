@@ -13,6 +13,7 @@ hyprpolkitagent
 hyprshot
 hyprsunset
 lazygit
+ly
 mpv
 neofetch
 nm-applet
@@ -29,4 +30,5 @@ waybar
 wireplumber
 wofi
 xdg-desktop-portal-hyprland
+xdg-utils
 yazi
