@@ -3,6 +3,7 @@ curl
 dolphin
 eza
 firefox
+fish
 git
 htop
 hyprcursor
