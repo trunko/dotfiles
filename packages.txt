@@ -1,3 +1,4 @@
+caligula
 catppuccin-gtk-theme-mocha
 curl
 dolphin
