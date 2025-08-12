@@ -17,7 +17,6 @@ hyprsunset
 lazygit
 ly
 mpv
-neofetch
 network-manager-applet
 nwg-look
 pavucontrol
