@@ -1,3 +1,4 @@
+btop
 caligula
 catppuccin-gtk-theme-mocha
 curl
@@ -6,7 +7,6 @@ eza
 firefox
 fish
 git
-htop
 hyprcursor
 hypridle
 hyprland
