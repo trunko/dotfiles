@@ -2,10 +2,15 @@
 
 ## References: Fernando Cejas (https://fernandocejas.com/blog/engineering/2022-03-30-arch-linux-system-maintance/)
 echo "----------------------------------------------------"
-echo "UPDATING SYSTEM"
+echo "RANKING MIRROR LIST"
 echo "----------------------------------------------------"
 
-reflector-simple
+sudo mv /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist.bak
+sudo reflector -l 20 --sort rate -p https -c "United States" --save /etc/pacman.d/mirrorlist
+
+echo "----------------------------------------------------"
+echo "UPDATING SYSTEM"
+echo "----------------------------------------------------"
 
 yay -Syu
 
