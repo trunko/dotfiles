@@ -8,6 +8,8 @@ echo "----------------------------------------------------"
 sudo mv /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist.bak
 sudo reflector -l 20 --sort rate -p https -c "United States" --save /etc/pacman.d/mirrorlist
 
+eos-rankmirrors
+
 echo "----------------------------------------------------"
 echo "UPDATING SYSTEM"
 echo "----------------------------------------------------"
