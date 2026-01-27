@@ -20,6 +20,7 @@ ly
 mpv
 network-manager-applet
 nwg-look
+opensnitch
 pavucontrol
 pipewire
 qogir-cursor-theme
