@@ -6,6 +6,7 @@ dolphin
 eza
 firefox
 fish
+gamemode
 git
 hyprcursor
 hypridle
