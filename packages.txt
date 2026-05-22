@@ -1,6 +1,6 @@
 btop
 caligula
-catppuccin-gtk-theme-mocha
+catppuccin-gtk-theme-frappe
 curl
 dolphin
 eza
