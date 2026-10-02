@@ -7,7 +7,8 @@
 
 PS1='[\u@\h \W]\$ '
 
-export EDITOR=nvim
+export VISUAL=nvim
+export EDITOR="$VISUAL"
 
 export PATH=/home/ttrunko/bin:$PATH
 

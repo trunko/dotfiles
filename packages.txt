@@ -4,7 +4,6 @@ catppuccin-gtk-theme-frappe
 curl
 dolphin
 eza
-firefox
 fish
 gamemode
 git
@@ -37,3 +36,4 @@ wofi
 xdg-desktop-portal-hyprland
 xdg-utils
 yazi
+zen-browser-bin
