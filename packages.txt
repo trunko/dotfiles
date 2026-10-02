@@ -15,6 +15,7 @@ hyprpaper
 hyprpolkitagent
 hyprshot
 hyprsunset
+kitty
 lazygit
 ly
 mpv
