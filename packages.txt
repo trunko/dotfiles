@@ -37,4 +37,3 @@ wofi
 xdg-desktop-portal-hyprland
 xdg-utils
 yazi
-zen-browser-bin
