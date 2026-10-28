@@ -18,6 +18,7 @@ hyprsunset
 kitty
 lazygit
 ly
+mangohud
 mpv
 network-manager-applet
 nwg-look
