@@ -1,0 +1,16 @@
+hyprcursor
+hypridle
+hyprland
+hyprlock
+hyprpaper
+hyprpolkitagent
+hyprshot
+hyprsunset
+ly
+network-manager-applet
+nwg-look
+swaync
+waybar
+wofi
+xdg-desktop-portal-hyprland
+xdg-utils
