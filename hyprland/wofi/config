@@ -1,5 +1,5 @@
 show=drun
-term=ghostty
+term=kitty
 location=center
 insensitive=true
 allow_markup=true
