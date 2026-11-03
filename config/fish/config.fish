@@ -1,6 +1,7 @@
 if status is-interactive
     set -g fish_greeting
     fish_vi_key_bindings
+    fish_add_path /home/ttrunko/bin
 
     function ls
         exa --icons -F -H --group-directories-first --hyperlink --git $argv
